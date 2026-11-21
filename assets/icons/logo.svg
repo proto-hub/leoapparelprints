@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E53935" />
+      <stop offset="100%" stop-color="#C62828" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D32F2F" />
+      <stop offset="100%" stop-color="#E65100" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Left Lion Paws (Two Paws icon) -->
+  <g transform="translate(10, 15) scale(0.9)" filter="url(#shadow)">
+    <!-- Paw 1 (Left slightly tilted) -->
+    <g transform="translate(15, 20) rotate(-15)">
+      <!-- Main Pad -->
+      <path d="M 28 35 C 22 28, 12 36, 15 47 C 18 57, 36 60, 42 53 C 48 45, 36 30, 28 35 Z" fill="url(#pawGrad)" />
+      <!-- Toe 1 -->
+      <ellipse cx="14" cy="22" rx="6" ry="8" transform="rotate(-30 14 22)" fill="url(#pawGrad)" />
+      <!-- Toe 2 -->
+      <ellipse cx="27" cy="14" rx="6.5" ry="9" transform="rotate(-8 27 14)" fill="url(#pawGrad)" />
+      <!-- Toe 3 -->
+      <ellipse cx="42" cy="18" rx="6.5" ry="8.5" transform="rotate(18 42 18)" fill="url(#pawGrad)" />
+      <!-- Toe 4 -->
+      <ellipse cx="51" cy="30" rx="5.5" ry="7" transform="rotate(35 51 30)" fill="url(#pawGrad)" />
+    </g>
+
+    <!-- Paw 2 (Right, slightly smaller and higher) -->
+    <g transform="translate(68, 5) rotate(15)">
+      <!-- Main Pad -->
+      <path d="M 28 35 C 22 28, 12 36, 15 47 C 18 57, 36 60, 42 53 C 48 45, 36 30, 28 35 Z" fill="url(#pawGrad)" />
+      <!-- Toe 1 -->
+      <ellipse cx="14" cy="22" rx="5.5" ry="7.5" transform="rotate(-30 14 22)" fill="url(#pawGrad)" />
+      <!-- Toe 2 -->
+      <ellipse cx="26" cy="14" rx="6" ry="8.5" transform="rotate(-8 26 14)" fill="url(#pawGrad)" />
+      <!-- Toe 3 -->
+      <ellipse cx="40" cy="18" rx="6.5" ry="8" transform="rotate(18 40 18)" fill="url(#pawGrad)" />
+      <!-- Toe 4 -->
+      <ellipse cx="48" cy="29" rx="5" ry="6.5" transform="rotate(35 48 29)" fill="url(#pawGrad)" />
+    </g>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(145, 0)">
+    <!-- Primary Title -->
+    <text x="0" y="58" font-family="'Poppins', 'Segoe UI', Arial, sans-serif" font-size="44" font-weight="800" fill="url(#textGrad)" letter-spacing="-0.5">
+      Leo &amp; Leo Apparel Prints
+    </text>
+    
+    <!-- Tagline -->
+    <text x="3" y="94" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#374151" letter-spacing="0.8">
+      A Complete Versatile Digital Printing Workshop
+    </text>
+
+    <!-- Location & Tech Micro-badge -->
+    <text x="3" y="118" font-family="'Inter', 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#EA580C" letter-spacing="1.2">
+      TIRUPUR • SUBLIMATION • HYBRID DTG • ROLL-TO-ROLL AOP • DTF
+    </text>
+  </g>
+</svg>
